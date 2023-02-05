@@ -16,6 +16,8 @@
 		7E48C1CC298CF030000AB203 /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E48C1CB298CF030000AB203 /* SRP.swift */; };
 		7E48C1CE298CF3CE000AB203 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E48C1CD298CF3CE000AB203 /* Singleton.swift */; };
 		7ED058EB298D90CE005C6345 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED058EA298D90CE005C6345 /* Coordinator.swift */; };
+		7ED058EF298FC547005C6345 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED058EE298FC547005C6345 /* Decorator.swift */; };
+		7ED058F1298FC577005C6345 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED058F0298FC577005C6345 /* Strategy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		7E48C1CB298CF030000AB203 /* SRP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRP.swift; sourceTree = "<group>"; };
 		7E48C1CD298CF3CE000AB203 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		7ED058EA298D90CE005C6345 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		7ED058EE298FC547005C6345 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
+		7ED058F0298FC577005C6345 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				7ED058EA298D90CE005C6345 /* Coordinator.swift */,
+				7ED058F0298FC577005C6345 /* Strategy.swift */,
 			);
 			path = Behavioral;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 		7ED058E8298D8FF0005C6345 /* Structured */ = {
 			isa = PBXGroup;
 			children = (
+				7ED058EE298FC547005C6345 /* Decorator.swift */,
 			);
 			path = Structured;
 			sourceTree = "<group>";
@@ -191,8 +197,10 @@
 				7E48C1CC298CF030000AB203 /* SRP.swift in Sources */,
 				7ED058EB298D90CE005C6345 /* Coordinator.swift in Sources */,
 				7E48C1B5298CEFC6000AB203 /* AppDelegate.swift in Sources */,
+				7ED058F1298FC577005C6345 /* Strategy.swift in Sources */,
 				7E48C1CE298CF3CE000AB203 /* Singleton.swift in Sources */,
 				7E48C1B7298CEFC6000AB203 /* SceneDelegate.swift in Sources */,
+				7ED058EF298FC547005C6345 /* Decorator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
